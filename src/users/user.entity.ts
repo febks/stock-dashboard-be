@@ -1,4 +1,4 @@
-import { Holding } from '@/holdings/holding.entity';
+import { Holding } from '../holdings/holding.entity';
 import {
   Entity,
   PrimaryGeneratedColumn,

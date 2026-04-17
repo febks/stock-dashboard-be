@@ -6,7 +6,7 @@ import {
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { Holding } from './holding.entity';
-import { StocksService } from '@/stocks/stock.service';
+import { StocksService } from '../stocks/stock.service';
 
 @Injectable()
 export class HoldingsService {
